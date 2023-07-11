@@ -1,0 +1,41 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://ekoenigshofer.github.io/pontypool/pontypool-1/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "pontypool-1" ] },
+    "homepage": [
+      {
+        "id": "https://archive.org/details/pontypool-by-tony-burgess",
+        "type": "Text",
+        "label": { "en": [ "pontypool-1" ] },
+        "format": "text/html"
+      }
+    ],
+    "items": [
+      {
+        "id": "https://ekoenigshofer.github.io/pontypool/pontypool-1/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 3224.0,
+        "items": [
+          {
+            "id": "https://ekoenigshofer.github.io/pontypool/pontypool-1/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://ekoenigshofer.github.io/pontypool/pontypool-1/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia902302.us.archive.org/25/items/pontypool-by-tony-burgess/Pontypool.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 3224.0
+                },
+                "target": "https://ekoenigshofer.github.io/pontypool/pontypool-1/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
